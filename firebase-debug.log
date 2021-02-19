@@ -1,0 +1,60 @@
+[debug] [2021-02-19T03:43:20.586Z] ----------------------------------------------------------------------
+[debug] [2021-02-19T03:43:20.588Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2021-02-19T03:43:20.589Z] CLI Version:   9.3.0
+[debug] [2021-02-19T03:43:20.589Z] Platform:      linux
+[debug] [2021-02-19T03:43:20.589Z] Node Version:  v14.15.4
+[debug] [2021-02-19T03:43:20.659Z] Time:          Fri Feb 19 2021 08:43:20 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-02-19T03:43:20.659Z] ----------------------------------------------------------------------
+[debug] [2021-02-19T03:43:20.659Z] 
+[debug] [2021-02-19T03:43:20.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-19T03:43:20.726Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/abdurraheemfarooqui/Desktop/Desktop files left at the beginning of A2/Bootcamp/Projects/quizapp
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using quizapp-abdulrahim. 
+[debug] [2021-02-19T03:43:25.356Z] > refreshing access token with scopes: []
+[debug] [2021-02-19T03:43:25.356Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-19T03:43:25.482Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-02-19T03:43:25.491Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/init/features/hosting/github.js:11:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/usr/lib/node_modules/firebase-tools/lib/init/features/hosting/index.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+[error] 
+[error] Error: Failed to get Firebase project quizapp-abdulrahim. Please make sure the project exists and your account has permission to access it.
